@@ -4,16 +4,15 @@
 #include <stdio.h>
 
 // IPs deiner Sungrow Wechselrichter
-static const char* sungrow_ips[5] = {
-    "192.168.8.36",
-    "192.168.8.37",
-    "192.168.8.38",
-    "192.168.8.39",
-    "192.168.8.40"
+static const char* sungrow_ips[4] = {
+    "192.168.178.71",
+    "192.168.178.77",
+    "192.168.178.78",
+    "192.168.178.79"
 };
 
-#define SOC_MIN 20
-#define SOC_MAX 95
+#define SOC_MIN 10
+#define SOC_MAX 100
 #define EMS_COMMAND_CHARGE     170
 #define EMS_COMMAND_DISCHARGE  187
 #define EMS_COMMAND_STOP       204
